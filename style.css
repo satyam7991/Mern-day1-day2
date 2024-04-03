@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #bcaaa4;
+}
+
+h1{
+    text-transform: uppercase capitalize;
+    font-family: verdana;
+    color: #616161;
+    text-decoration: underline;
+    
+}
+nav{
+    text-align: right;
+}
+
+nav a{
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(43, 10, 190);
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: .5s;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    opacity: 0;
+    transition: .5s;
+
+}
+
+nav a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    color: #795548;
+    line-height: 30px;
+    
+}
+
+img{
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sat{
+    font-family: cursive;
+}
+
+
+.yam{
+       text-align: center;
+}
+
+.s{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.s:hover{
+    background-color: #004d40;
+    color: black;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+  }
+
+  table{
+    display: flex;
+    justify-content: center;
+  }
+
+  .y{
+    background-color: #616161;
+  }
+
+  .t{
+    text-align: center;
+    
+  }
+
+  h5{
+    font-size: 20px;
+  }
+
+  li{
+    padding: 10px;
+  }
+ 
+  .y{
+    text-align: center;
+  }
+
+  .o{
+    text-align: center;
+  }
+
+
+  div{
+    text-align: center;
+  }
+
+.n{
+    text-align: center;
+  }
+
+  button{
+    border-radius: 15px;
+    background-color: #bcaaa4;
+  }
+
+  button:hover{
+    border-radius: 15px;
+    background-color: #004d40;
+    color: black;
+
+  }
